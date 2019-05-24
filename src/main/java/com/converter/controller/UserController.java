@@ -15,10 +15,10 @@ public class UserController {
         return "home";
     }
 
-    @PostMapping
-    public ModelAndView login () {
-        User user = UserService.Login();
-        if (false) {
+    @PostMapping ("login")
+    public ModelAndView login (User login) {
+        User user = UserService.Login(login);
+        if (user == null) {
             ModelAndView modelAndView = new ModelAndView("errorLogin");
             return modelAndView;
         } else {

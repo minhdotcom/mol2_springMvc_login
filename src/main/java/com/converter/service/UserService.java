@@ -34,7 +34,13 @@ public class UserService {
         userArray.add(user3);
     }
 
-    public static User Login () {
-        return userArray.get(0);
+    public static User Login (User login) {
+        for (User user: userArray) {
+            if (user.getAccount().equals(login.getAccount())
+                && user.getPassword().equals(login.getPassword())) {
+                return user;
+            }
+        }
+        return null;
     }
 }
