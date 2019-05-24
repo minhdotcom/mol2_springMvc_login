@@ -11,6 +11,26 @@
     <title>User details</title>
 </head>
 <body>
-
+    <h1>User details</h1>
+    <fieldset>
+        <table>
+            <tr>
+                <td>Account:</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td></td>
+            </tr>
+        </table>
+    </fieldset>
 </body>
 </html>
