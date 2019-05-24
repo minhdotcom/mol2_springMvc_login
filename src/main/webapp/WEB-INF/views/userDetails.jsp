@@ -16,19 +16,19 @@
         <table>
             <tr>
                 <td>Account:</td>
-                <td></td>
+                <td>${user.account}</td>
             </tr>
             <tr>
                 <td>Name:</td>
-                <td></td>
+                <td>${user.name}</td>
             </tr>
             <tr>
                 <td>Email:</td>
-                <td></td>
+                <td>${user.email}</td>
             </tr>
             <tr>
                 <td>Age:</td>
-                <td></td>
+                <td>${user.age}</td>
             </tr>
         </table>
     </fieldset>

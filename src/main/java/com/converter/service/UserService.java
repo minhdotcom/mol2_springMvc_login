@@ -34,7 +34,7 @@ public class UserService {
         userArray.add(user3);
     }
 
-    public User Login () {
+    public static User Login () {
         return userArray.get(0);
     }
 }
